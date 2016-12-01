@@ -1,0 +1,10 @@
+<h1>hi</h1>
+{{ vm.post.title }}
+{{ vm.post.body }}
+
+<div class="">
+  <input type="text" data-ng-model="vm.post.title" placeholder="Title">
+  <input type="text" data-ng-model="vm.post.body" placeholder="Body">
+  <button data-ng-click="vm.update()">Edit Post</button>
+</div>
+<button data-ng-click="vm.destroy()">Delete Post</button>

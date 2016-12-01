@@ -1,0 +1,10 @@
+<h2>index</h2>
+<div data-ng-repeat="post in vm.posts">
+<h2><a data-ui-sref="show({_id: post._id})">{{post.title}}</a></h2>
+</div>
+
+<form data-ng-submit="vm.create()">
+  <input type="text" data-ng-model="vm.newPost.title" placeholder="title" />
+  <input type="text" data-ng-model="vm.newPost.body" placeholder="body" />
+  <button type="submit">Add New Post</button>
+</form>

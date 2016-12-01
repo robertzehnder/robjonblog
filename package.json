@@ -1,0 +1,12 @@
+{
+  "name": "robjonblog",
+  "version": "1.0.0",
+  "description": "Rob and Jon's Rad Blog!",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.7.0"
+  }
+}
